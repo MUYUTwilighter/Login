@@ -1,0 +1,19 @@
+{
+    "command.login.success.register": "成功创建账户！",
+    "command.login.success.login": "成功登录",
+    "command.login.success.changePassword": "成功修改密码",
+    "command.login.success.opChangePassword": "密码已被管理员修改",
+
+    "command.login.fail.notPlayer": "该命令只可由玩家执行",
+    "command.login.fail.integrated": "该命令无法在本地游戏执行",
+    "command.login.fail.isNewPlayer": "你还未在当前服务器注册",
+    "command.login.fail.notLoggedIn": "你还未登录",
+    "command.login.fail.isLoggedIn": "你已经登录",
+    "command.login.fail.incorrectPassword": "密码错误",
+    "command.login.fail.notNewPlayer": "你已经在当前服务器注册",
+
+    "multiplayer.disconnect.login_overtime": "登录超时",
+
+    "event.connected.login.register": "使用 /register <密码> 来注册",
+    "event.connected.login.login": "使用 /login <密码> 来登录"
+}
