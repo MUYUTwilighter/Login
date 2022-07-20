@@ -1,9 +1,17 @@
 pluginManagement {
     repositories {
-        maven {
-            name = 'Fabric'
-            url = 'https://maven.fabricmc.net/'
-        }
+        maven { url "https://lss233.littleservice.cn/repositories/minecraft/" }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+        maven { url 'https://plugins.gradle.org/m2/' }
+        maven { url "https://maven.fabricmc.net/" }
+        maven { url "https://maven.architectury.dev/" }
+        maven { url "https://maven.minecraftforge.net/" }
         gradlePluginPortal()
     }
 }
+
+include("common")
+include("fabric")
+include("forge")
+
+rootProject.name = "Login"
