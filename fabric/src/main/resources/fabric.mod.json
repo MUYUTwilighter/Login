@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "login",
+  "version": "${version}",
+  "name": "Login",
+  "description": "A simple mod that add offline account management to Minecraft, no guarantee for security.",
+  "authors": [
+    "MUYU_Twilighter"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/login/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cool.muyucloud.login.fabric.LoginFabric"
+    ]
+  },
+  "mixins": [
+    "login.mixins.json",
+    "login-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.2"
+  }
+}
