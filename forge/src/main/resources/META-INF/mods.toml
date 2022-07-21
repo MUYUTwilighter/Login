@@ -1,7 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "[40,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "All-Rights-Reserved"
 
 [[mods]]
 modId = "login"
@@ -11,7 +11,7 @@ authors = "MUYU_Twilighter"
 description = '''
 A simple mod that add offline account management to Minecraft, no guarantee for security.
 '''
-#logoFile = ""
+# logoFile = "assets/login/icon.png"
 
 [[dependencies.login]]
 modId = "forge"
